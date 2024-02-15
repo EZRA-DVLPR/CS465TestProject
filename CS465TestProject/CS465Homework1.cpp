@@ -174,7 +174,7 @@ int main()
 		// -----
 		processInput(window);
 
-		//increment/decrement color value
+		//increment/decrement colorValue
 		colorValue += deltaColor;
 
 		//flip the sign of the deltaColor when at either extreme (1.0f or 0.0f)
@@ -182,13 +182,15 @@ int main()
 			deltaColor *= -1;
 		}
 
+		//attach the updated colorValue to the RGB of triangle
 		vertices[3] = colorValue;
 		vertices[10] = colorValue;
 		vertices[17] = colorValue;
 
+		//Debugging to see that colorValue has been updated in console
+		//std::cout << "color value is:" << colorValue << std::endl;
 
-		std::cout << "color value is:" << colorValue << std::endl;
-
+		//updates the buffer
 		glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
 		//# frames to wait until updating
