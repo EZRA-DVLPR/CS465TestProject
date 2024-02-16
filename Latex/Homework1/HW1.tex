@@ -1,10 +1,12 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage{graphicx}
+%used to indent the first line in each section
+\usepackage{indentfirst}
 \usepackage[english]{babel}
 \usepackage[latin1]{inputenc}
-\usepackage{cite}
+%used to not have a new page when including another .tex file
 \usepackage{newclude}
-\usepackage[table]{xcolor}
+
 %
 \begin{document}
 %
@@ -18,13 +20,32 @@
    
    \tableofcontents
  
-  \newpage
-
-  %
-  %   CHANGE HISTORY
-  %
+   \newpage
     
+   \section{Change History}
 
+   Version: 1.0
+
+   Modifier: Isaiah Martinez
+   
+   Date: 2/15/24
+   
+   Description of Change: Updated the buffer. 
+   Manually adjusted the values within vertices.
+   Homework 1 completed.
+
+   %horizontal line
+   \noindent\rule{12cm}{0.4pt}
+
+   Version: 0.5
+   
+   Modifier: Isaiah Martinez
+   
+   Date: 2/12/24
+   
+   Description of Change: Added the logic for colorValue and deltaColor. 
+   Logged to the console. 
+   Unsure of why triangle colors are not changing, despite colorValue showing differences.
 
    %include the other pages
 
@@ -37,6 +58,7 @@
    %\include*{HW1-DevView}
    %\include*{HW1-PhysView}
    \include*{HW1-UCView}
+   \include*{HW1-Reflection}
 
 %Shouldn't list the bib, but i'm keeping it here for future reference
 \iffalse

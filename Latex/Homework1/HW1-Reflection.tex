@@ -1,0 +1,16 @@
+\section{Reflection}
+\label{section:Reflection}
+
+I found the most challenging part of the homework to have the triangle actually change colors.
+I initially had assigned colorValue with the idea in mind that it would change the color of the triangle, and all I needed to do was update its value.
+When this proved to not be true, I was confused and logged the values to see that it was in fact changing.
+When the changes were visible but still no color changes on the triangle were visible I was perplexed.
+Afterwards, I realized I didn't update the VBO, meaning that the changes weren't being rendered.
+After adding the line to update the buffer, there were still no changes and I was stumped for a long time.
+Then I had the idea to manually update the values within vertices to the new value of colorValue.
+To me this seemed redundant, since vertices was defined with colorValue and I assumed it was dynamically referenced.
+As it turns out however, this was untrue!
+Vertices was defined and its values were statically defined, so when I manually input the new values for the color, the code worked.
+
+I would say that I learned that I need to explicitly define changes to all associated parts.
+Ranging from definitions of variables like in vertices, to changing the values within the variables, and finally updating the buffer to draw the new image.

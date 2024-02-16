@@ -1,10 +1,12 @@
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}Introduction}{2}%
-\contentsline {section}{\numberline {2}Design Goals}{2}%
-\contentsline {section}{\numberline {3}System Behavior}{2}%
-\contentsline {section}{\numberline {4}Logical View}{3}%
-\contentsline {subsection}{\numberline {4.1}Mid-Level Design}{3}%
-\contentsline {subsubsection}{\numberline {4.1.1}Vertices}{3}%
-\contentsline {subsubsection}{\numberline {4.1.2}VBO and VAO}{4}%
-\contentsline {subsubsection}{\numberline {4.1.3}Render Loop}{4}%
-\contentsline {section}{\numberline {5}Use Case View}{6}%
+\contentsline {section}{\numberline {1}Change History}{2}%
+\contentsline {section}{\numberline {2}Introduction}{2}%
+\contentsline {section}{\numberline {3}Design Goals}{2}%
+\contentsline {section}{\numberline {4}System Behavior}{2}%
+\contentsline {section}{\numberline {5}Logical View}{3}%
+\contentsline {subsection}{\numberline {5.1}Mid-Level Design}{3}%
+\contentsline {subsubsection}{\numberline {5.1.1}Vertices}{3}%
+\contentsline {subsubsection}{\numberline {5.1.2}VBO and VAO}{4}%
+\contentsline {subsubsection}{\numberline {5.1.3}Render Loop}{4}%
+\contentsline {section}{\numberline {6}Use Case View}{6}%
+\contentsline {section}{\numberline {7}Reflection}{6}%
