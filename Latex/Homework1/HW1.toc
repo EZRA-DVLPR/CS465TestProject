@@ -4,7 +4,6 @@
 \contentsline {section}{\numberline {3}System Behavior}{2}%
 \contentsline {section}{\numberline {4}Logical View}{3}%
 \contentsline {subsection}{\numberline {4.1}Mid-Level Design}{3}%
-\contentsline {subsection}{\numberline {4.2}High-Level Operational View}{3}%
 \contentsline {section}{\numberline {5}Process View}{3}%
 \contentsline {section}{\numberline {6}Development View}{3}%
 \contentsline {section}{\numberline {7}Physical View}{3}%
