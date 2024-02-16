@@ -6,5 +6,4 @@
 \contentsline {subsection}{\numberline {4.1}Mid-Level Design}{3}%
 \contentsline {section}{\numberline {5}Process View}{3}%
 \contentsline {section}{\numberline {6}Development View}{3}%
-\contentsline {section}{\numberline {7}Physical View}{3}%
-\contentsline {section}{\numberline {8}Use Case View}{3}%
+\contentsline {section}{\numberline {7}Use Case View}{3}%
