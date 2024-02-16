@@ -54,8 +54,17 @@ The final key part of the code is within the render loop.
 The first portion worth mentioning is the function given which processes the user input.
 This function allows for the user to close the program.
 
-The more important part of the render loop is the logic used to update the triangle.
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=10cm]{./Images/Escape.png}
+       \caption{User Input logic.}
+           \label{Fig:Escape}
+\end{figure}
+
+Another part of the render loop is the logic used to update the triangle.
 This is done using the VAO and adjusting the previously mentioned variables colorValue and deltaColor.
+
+\newpage
 
 First, colorValue is added to deltaColor and subsequently set to the new value.
 Then, the logic performs a boolean check to see if colorValue has hit or passed either extreme value for the color value possible for the system.
